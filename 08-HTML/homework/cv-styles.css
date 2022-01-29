@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(182, 206, 250);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even) {background-color: rgba(14, 87, 243, 0.8);}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(154, 190, 255) ;
+    padding: 10px;
+    grid-auto-columns: max-content;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(14, 87, 243, 0.8);
+    padding: 50px;
+    font-size: 15px;
+    text-align: justify(left);
+    color:black;
+
+}
+
+.grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(14, 87, 243, 0.8);
+    padding: 50px;
+    font-size: 15px;
+    text-align: justify(left);
+    color:black;
+
+}
+
+  .polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding-bottom: 15px;
+}

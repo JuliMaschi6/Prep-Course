@@ -1,0 +1,31 @@
+img{
+    width: 400px;
+}
+
+h1{
+    color: darkred;
+}
+
+body{
+    background-image: url(fotos/pizza.jpg);
+    
+}
+
+div{
+    display: flex;        
+    justify-content: center;
+}
+
+.thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color:lightyellow;
+    padding: 50px;
+    border: 10px;
+    border-style: dotted;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
